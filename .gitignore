@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Except the files we want
+!Install-CopilotSolution.ps1
+!README.md
+!.gitignore
