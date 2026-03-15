@@ -30,14 +30,14 @@ $Solutions = @(
     @{
         Key         = '3'
         Name        = 'Copilot for Legal'
-        ScriptPath  = Join-Path $ScriptRoot 'CopilotLegal\m365-copilot\scripts\Install-LegalCopilot.ps1'
+        ScriptPath  = Join-Path $ScriptRoot 'CopilotLegal\install\Install-LegalCopilot.ps1'
         Available   = $true
     },
     @{
         Key         = '4'
         Name        = 'Copilot for Retail'
-        ScriptPath  = $null
-        Available   = $false
+        ScriptPath  = Join-Path $ScriptRoot 'CopilotRetail\install\Install-RetailCopilot.ps1'
+        Available   = $true
     }
 )
 
